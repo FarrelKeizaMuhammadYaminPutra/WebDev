@@ -1,0 +1,131 @@
+/* .navbar{
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.7),10%, transparent);
+    z-index: 1;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-left img{
+    margin-left: 40px;
+    width: 50px;
+}
+
+.navbar-left ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-left ul li{
+    cursor: pointer;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-right .icons{
+    width: 20px;
+    cursor: pointer;
+}
+
+.navbar-right .profile{
+    border-radius: 4px;
+    width: 40px;
+} */
+
+.navbar {
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5;
+    z-index: 1;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease-in-out; /* Smooth transition for background color */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-left img {
+    margin-left: 50px;
+    width: 50px;
+}
+
+.navbar-left ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-left ul li {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Style for all the links inside the navbar */
+.navbar-left ul li a,
+.navbar-right a {
+    color: #e5e5e5; /* Use the same color as the text */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 14px; /* Adjust the font size */
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-right .icons {
+    width: 24px; /* Adjust icon size */
+    cursor: pointer;
+    color: white; /* Keep icon color white */
+}
+
+.navbar-right .profile {
+    border-radius: 4px;
+    width: 40px;
+}
+
+/* Hover effect for links */
+.navbar-left ul li a:hover,
+.navbar-right a:hover {
+    color: #ffffff; /* Lighter shade on hover */
+}
+
+/* Optional: If you want to increase the font size for the right links */
+.navbar-right a {
+    font-size: 16px; /* Optional larger font size for right links */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.search-bar .search-icon {
+    color: grey;
+}
